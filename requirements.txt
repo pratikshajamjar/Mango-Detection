@@ -3,3 +3,6 @@ opencv-python-headless
 numpy
 ultralytics
 pillow
+matplotlib
+libglib2.0-0  # If using a separate packages.txt file
+

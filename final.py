@@ -7,7 +7,7 @@ from PIL import Image
 import time
 
 # Set page title - removed icon
-st.set_page_config(page_title="Fruit Ripeness Detection", layout="wide")
+st.set_page_config(page_title="Mango Ripeness Detection", layout="wide")
 
 st.markdown("""
     <style>

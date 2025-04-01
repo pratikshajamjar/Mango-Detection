@@ -44,7 +44,7 @@ st.markdown("""
     
     .upload-section:hover {
         transform: translateY(-5px);
-        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
     }
     
     /* Results section */
@@ -117,7 +117,7 @@ st.markdown("""
     }
     
     .object-count {
-        font-size: 20px;
+        font-size: 12px;
         font-weight: 500;
         padding: 0.8rem;
         margin: 0.5rem 0;

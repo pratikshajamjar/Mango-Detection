@@ -9,7 +9,6 @@ import time
 # Set page title - removed icon
 st.set_page_config(page_title="Fruit Ripeness Detection", layout="wide")
 
-# Custom CSS with animations and improved styling - removed emojis and simplified header
 st.markdown("""
     <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
@@ -44,7 +43,7 @@ st.markdown("""
     
     .upload-section:hover {
         transform: translateY(-5px);
-        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
     }
     
     /* Results section */
@@ -117,7 +116,7 @@ st.markdown("""
     }
     
     .object-count {
-        font-size: 12px;
+        font-size: 20px;
         font-weight: 500;
         padding: 0.8rem;
         margin: 0.5rem 0;
